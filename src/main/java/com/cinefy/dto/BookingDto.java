@@ -14,12 +14,13 @@ import java.util.List;
 @Builder
 public class BookingDto {
     private Long id;
-    private String bookingNumber;
-    private LocalDateTime bookingTime;
-    private Long userId;
-    private Long showId;
-    private String status;
-    private Double totalAmount;
-    private List<Long> showSeatIds;
-    private Long paymentId;
+private String bookingNumber;
+private LocalDateTime bookingTime;
+private String status;
+private Double totalAmount;
+
+private UserDto user;
+private ShowDto show;
+private List<ShowSeatDto> seats;
+private PaymentDto payment;
 }

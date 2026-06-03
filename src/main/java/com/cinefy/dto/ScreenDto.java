@@ -10,8 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class ScreenDto {
-    private Long id;
-    private String name;
-    private Integer totalSeats;
-    private Long theaterId;
+private Long id;
+private String name;
+private Integer totalSeats;
+
+private TheaterDto theater;
 }

@@ -10,10 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class ShowSeatDto {
-    private Long id;
-    private Long showId;
-    private Long seatId;
-    private String status;
-    private Double price;
-    private Long bookingId;
+   private Long id;
+private String status;
+private Double price;
+
+private SeatDto seat;
 }

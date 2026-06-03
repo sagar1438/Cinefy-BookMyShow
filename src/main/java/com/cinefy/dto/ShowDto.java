@@ -12,9 +12,10 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class ShowDto {
-    private Long id;
-    private LocalDateTime startTime;
-    private LocalDateTime endTime;
-    private Long movieId;
-    private Long screenId;
+   private Long id;
+private LocalDateTime startTime;
+private LocalDateTime endTime;
+
+private MovieDto movie;
+private ScreenDto screen;
 }
